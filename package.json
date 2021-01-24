@@ -1,0 +1,30 @@
+{
+  "name": "commerce",
+  "version": "1.0.0",
+  "description": "This application acts as a backend for an e-commerce site. This helps connect to a commercial database. Provides functionality to create, view and delete records of products, categories and Tags.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koneruteja/Commerce.git"
+  },
+  "author": "koneru.dharmateja1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koneruteja/Commerce/issues"
+  },
+  "homepage": "https://github.com/koneruteja/Commerce#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "node": "^15.4.0",
+    "sequelize": "^6.4.0"
+  },
+  "devDependencies": {}
+}
